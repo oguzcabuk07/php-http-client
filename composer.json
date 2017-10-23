@@ -1,0 +1,21 @@
+{
+    "name": "oguzcabuk07/php-http-client",
+    "description": "PHP http client with mocking",
+    "version": "1.0.0",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "OguzCabuk\\Http\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OguzCabuk\\Http\\Client\\Test\\": "tests/"
+        }
+    }
+}
